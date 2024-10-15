@@ -1,6 +1,4 @@
 import time
-import asyncio
-import inspect
 import functools
 
 from logger import get_logger

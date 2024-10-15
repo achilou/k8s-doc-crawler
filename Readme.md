@@ -22,3 +22,18 @@ pip3 install -r requirements.txt
 ```shell
 python3 crawler.py
 ```
+
+## 说明
+
+```python
+# 获取目录
+menu = await aget_menu()
+
+# 打印目录树
+for item in menu:
+    print_menu_tree(item)
+
+# 获取所有文档， 存储到data/html目录下,再次调用可以从本地直接加载
+res = await aget_docs(menu)
+
+```
